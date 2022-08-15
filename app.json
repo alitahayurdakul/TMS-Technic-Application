@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "TMS Technic",
+    "slug": "TmsTechnicWebRouter",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/tms-icon.png",
+    "splash": {
+      "image": "./assets/tms-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"tmstechnic.webrouter",
+      "useNextNotificationsApi": true,
+      "versionCode":6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tms-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
